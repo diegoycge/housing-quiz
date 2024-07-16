@@ -56,4 +56,4 @@ def determine_housing_options(citizen, legal, benefit, owned, special, homeless,
                 return "You may qualify for inclusionary housing in some places, depending on the specific income criteria set by local authorities."
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+    app.run()
